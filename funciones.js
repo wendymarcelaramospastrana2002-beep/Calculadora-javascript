@@ -37,6 +37,7 @@ const residuo = () => {
     let number2 = Number(document.getElementById('number2').value);
 
     let result = (number1 * number2) / 100;
+    
 
     document.getElementById('result').innerHTML = result;
 }
