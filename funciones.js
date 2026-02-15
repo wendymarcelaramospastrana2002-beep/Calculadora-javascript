@@ -1,11 +1,13 @@
-function suma(){
+function Suma(){
+
     let number1= Number (document.getElementById('number1').value);
     let number2= Number(document.getElementById('number2').value);
     let final=number1 + number2;
 
     return document.getElementById('final').value=final;
 }
-function resta(){
+
+function Resta(){
     let number1= Number (document.getElementById('number1').value);
     let number2= Number(document.getElementById('number2').value);
     let final=number1 - number2;
@@ -13,7 +15,8 @@ function resta(){
     return document.getElementById('final').value=final;
 }
 
-const div = () => {
+
+const Div = () => {
     let number1 = Number(document.getElementById('number1').value);
     let number2 = Number(document.getElementById('number2').value);
 
@@ -24,7 +27,8 @@ const div = () => {
         document.getElementById('result').innerHTML = result;
     }
 }
-const multi=()=>{
+
+const Multi=()=>{
     let  number1=Number(document.getElementById('number1').value);
     let number2= Number (document.getElementById('number2').value);
     let result=number1*number2;
@@ -32,7 +36,8 @@ const multi=()=>{
     return document.getElementById('result').innerHTML= result;
 }
 
-const residuo = () => {
+
+const Residuo = () => {
     let number1 = Number(document.getElementById('number1').value);
     let number2 = Number(document.getElementById('number2').value);
 
